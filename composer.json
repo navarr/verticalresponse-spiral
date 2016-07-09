@@ -1,0 +1,25 @@
+{
+    "name": "navarr/verticalresponse-spiral",
+    "description": "Spiral HttpClient and RequestProvider for navarr/verticalresponse",
+    "require": {
+        "navarr/verticalresponse": "^2.0.2",
+        "juliangut/spiral": "^0.1.1",
+        "guzzlehttp/psr7": "^1.3"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Navarr Barnier",
+            "email": "me@navarr.me"
+        }
+    ],
+    "minimum-stability": "stable",
+    "provide": {
+        "navarr/verticalresponse-provider-implementation": "^2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "VerticalResponse\\Client\\": "src/"
+        }
+    }
+}
